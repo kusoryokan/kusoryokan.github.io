@@ -27,7 +27,7 @@
 </head>
 
 <body class="cd-fixed-bg">
-    <span itemscope itemtype="http://schema.org/Product" itemscope="" itemtype="http://schema.org/Event"><nav class="navbar navbar-default navbar-fixed-top">
+    <span itemscope="" itemtype="http://schema.org/Product"><nav class="navbar navbar-default navbar-fixed-top">
 		<div class="container-fluid">
 			<div class="navbar-header">
 				<a class="navbar-brand">
@@ -40,7 +40,7 @@
         <span class="icon-bar"></span>
     </button>
     </div>
-    <!--   中央のナビゲーション部分 ================   -->
+    <!--    中央のナビゲーション部分 ================    -->
     <div class="collapse navbar-collapse" id="nav_target">
         <ul class="nav navbar-nav">
             <li><a onclick="$('#info').animatescroll({scrollSpeed:500,easing:''});">お知らせ</a></li>
@@ -48,7 +48,7 @@
             <li><a onclick="$('#introduce').animatescroll({scrollSpeed:500,easing:'easeInOutCubic'});">冊子紹介</a></li>
             <li><a onclick="$('#access').animatescroll({scrollSpeed:500,easing:'easeInOutCubic'});">アクセス</a></li>
         </ul>
-        <!--   右寄せになる部分 ================   -->
+        <!--    右寄せになる部分 ================    -->
         <ul class="nav navbar-nav navbar-right">
             <li class="dropdown">
                 <a class="dropdown-toggle" data-toggle="dropdown">Link <span class="caret"></span></a>
@@ -65,12 +65,12 @@
         <div class="container">
             <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="3000" style="max-width:900px;margin:auto;">
                 <ol class="carousel-indicators">
-                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                    <!--   <li data-target="#carousel-example-generic" data-slide-to="1"></li>   -->
+                    <li data-target="#carousel-example-generic" data-slide-to="0" class=""></li>
+                    <!--    <li data-target="#carousel-example-generic" data-slide-to="1"></li>    -->
                 </ol>
                 <div class="carousel-inner" role="listbox">
-                    <div class="item active"><img src="images/photo1.png" alt="First Slide" /></div>
-                    <div class="item"><img src="images/photo2.png" alt="Second Slide" /></div>
+                    <div class="item"><img src="images/photo1.png" alt="First Slide" /></div>
+                    <div itemscope itemtype="http://schema.org/Product" class="item active"><img itemprop="image" src="images/photo2.png" alt="Second Slide" /></div>
                 </div>
                 <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
 						<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
@@ -86,54 +86,54 @@
     <article>
         <div id="info">
             <div class="container">
-                <h1 class="wow fadeInUp" data-wow-offset="300">お知らせ</h1>
-                <h2 class="wow fadeInUp" data-wow-offset="300">
+                <h1 class="wow fadeInUp" data-wow-offset="300" style="visibility: hidden; animation-name: none; -webkit-animation-name: none;">お知らせ</h1>
+                <h2 class="wow fadeInUp" data-wow-offset="300" style="visibility: hidden; animation-name: none; -webkit-animation-name: none;">
 						<span itemprop="name">COMITIA</span> 122 参加決定！！！</h2>
                 <br/>
-                <h2 class="wow fadeInUp" data-wow-offset="300">2017年11月23日(木)(祝) @け54a</h2>
+                <h2 class="wow fadeInUp" data-wow-offset="300" style="visibility: hidden; animation-name: none; -webkit-animation-name: none;">2017年11月23日(木)(祝) @け54a</h2>
                 <br/>
-                <h2 class="wow fadeInUp" data-wow-offset="300">11:00～16:00</h2>
+                <h2 class="wow fadeInUp" data-wow-offset="300" style="visibility: hidden; animation-name: none; -webkit-animation-name: none;">11:00～16:00</h2>
                 <br/>
             </div>
         </div>
         <div id="member">
             <div class="container">
-                <div class="wow fadeInUp" data-wow-offset="300">
+                <div class="wow fadeInUp" data-wow-offset="300" style="visibility: hidden; animation-name: none; -webkit-animation-name: none;">
                     <h1>メンバー</h1>
                 </div>
-                <div class="wow fadeInUp" data-wow-offset="300">
+                <div class="wow fadeInUp" data-wow-offset="300" style="visibility: hidden; animation-name: none; -webkit-animation-name: none;">
                     <div class="row">
                         <div class="col-md-3 col-sm-6 text-center">
                             <div class="fh5co-feature-icon">
-                                <!--   <i class="ti-mobile"></i>   -->
+                                <!--    <i class="ti-mobile"></i>    -->
                                 <a href="https://twitter.com/pincreate"><img src="images/pink.jpg" style="max-width:240px; margin:auto;"/></a>
                             </div>
                             <h3 class="heading">隠者のピンク</h3>
-                            <!--   <p>sample</p>   -->
+                            <!--    <p>sample</p>    -->
                         </div>
                         <div class="col-md-3 col-sm-6 text-center">
                             <div class="fh5co-feature-icon">
-                                <!--   <i class="ti-lock"></i>   -->
+                                <!--    <i class="ti-lock"></i>    -->
                                 <a href="https://twitter.com/soramizuki10"><img src="images/soramizuki.jpg" style="max-width:240px; margin:auto;"/></a>
                             </div>
                             <h3 class="heading">soramizuki</h3>
-                            <!--   <p>sample </p>   -->
+                            <!--    <p>sample </p>    -->
                         </div>
                         <div class="col-md-3 col-sm-6 text-center">
                             <div class="fh5co-feature-icon">
-                                <!--   <i class="ti-lock"></i>   -->
+                                <!--    <i class="ti-lock"></i>    -->
                                 <a href="https://twitter.com/tsujihaneta"><img src="images/haneta.jpg" style="max-width:240px; margin:auto;"/></a>
                             </div>
                             <h3 class="heading">つじはねた</h3>
-                            <!--   <p>sample </p>   -->
+                            <!--    <p>sample </p>    -->
                         </div>
                         <div class="col-md-3 col-sm-6 text-center">
                             <div class="fh5co-feature-icon">
-                                <!--   <i class="ti-lock"></i>   -->
+                                <!--    <i class="ti-lock"></i>    -->
                                 <a href="https://twitter.com/pechkart"><img src="images/pechika.jpg" style="max-width:240px; margin:auto;"/></a>
                             </div>
                             <h3 class="heading">長雪ぺちか</h3>
-                            <!--   <p>sample </p>   -->
+                            <!--    <p>sample </p>    -->
                         </div>
                     </div>
                 </div>
@@ -141,7 +141,7 @@
         </div>
         <div id="introduce">
             <div class="container">
-                <div class="wow fadeInUp" data-wow-offset="300">
+                <div class="wow fadeInUp" data-wow-offset="300" style="visibility: hidden; animation-name: none; -webkit-animation-name: none;">
                     <h1>冊子紹介</h1>
                     <div class="row--v-middle" style="padding-top: 20px;">
                         <div class="col-md-6 col-sm-6 text-center">
@@ -160,8 +160,8 @@
         </div>
         <div itemprop="location" itemscope="" itemtype="http://schema.org/Place" id="access">
             <div class="container">
-                <h1 class="wow fadeInUp" data-wow-offset="300">アクセス</h1>
-                <div class="wow fadeInUp" data-wow-offset="300">
+                <h1 class="wow fadeInUp" data-wow-offset="300" style="visibility: hidden; animation-name: none; -webkit-animation-name: none;">アクセス</h1>
+                <div class="wow fadeInUp" data-wow-offset="300" style="visibility: hidden; animation-name: none; -webkit-animation-name: none;">
                     <div class="row--v-middle">
                         <div class="col-md-4 col-sm-6 text-center">
                             <h2>
@@ -193,12 +193,12 @@
         </div>
     </article>
     <meta itemprop="description" content="同人誌即売会" />
-    <meta itemprop="description" content="同人誌">
-    <meta itemprop="description" content="小説">
-    <meta itemprop="description" content="短編小説">
-    <meta itemprop="description" content="創作">
-    <meta itemprop="description" content="一次創作">
-    <meta itemprop="description" content="イラスト">
+    <meta itemprop="description" content="同人誌" />
+    <meta itemprop="description" content="小説" />
+    <meta itemprop="description" content="短編小説" />
+    <meta itemprop="description" content="創作" />
+    <meta itemprop="description" content="一次創作" />
+    <meta itemprop="description" content="イラスト" />
     <meta itemprop="startDate" content="2017-11-23" />
     </span>
     <footer>
