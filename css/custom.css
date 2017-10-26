@@ -8,7 +8,13 @@
 	background-position: center center;
 	position: relative;
 }
-
+/*
+.img-responsive {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+*/
 body {
 	font-family: 'Noto Sans Japanese', sans-serif;
 	font-size: 16px;
