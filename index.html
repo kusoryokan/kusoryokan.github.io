@@ -25,11 +25,11 @@
         new WOW().init();
     </script>
     <!-- アクセス時のモーダルウィンドウ表示部分 -->
-    <!-- <script>
+    <script>
         $(document).ready(function(){
             $("#popup").eq(0).click();
         });
-    </script> -->
+    </script>
 </head>
 
 <body class="cd-fixed-bg">
@@ -52,7 +52,7 @@
             <li><a onclick="$('#info').animatescroll({scrollSpeed:500,easing:''});">お知らせ</a></li>
             <li><a onclick="$('#member').animatescroll({scrollSpeed:500,easing:'easeInOutCubic'});">メンバー</a></li>
             <li><a onclick="$('#introduce').animatescroll({scrollSpeed:500,easing:'easeInOutCubic'});">冊子紹介</a></li>
-            <!-- <li><a onclick="$('#access').animatescroll({scrollSpeed:500,easing:'easeInOutCubic'});">アクセス</a></li> -->
+            <li><a onclick="$('#access').animatescroll({scrollSpeed:500,easing:'easeInOutCubic'});">アクセス</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
             <li class="dropdown">
@@ -95,11 +95,10 @@
                 <h1 class="wow fadeInUp" data-wow-offset="300" style="visibility: hidden; animation-name: none; -webkit-animation-name: none;">お知らせ</h1>
                 <h2 class="wow fadeInUp" data-wow-offset="300" style="visibility: hidden; animation-name: none; -webkit-animation-name: none;">
                         <span itemprop="name">COMITIA</span> 126 参加決定しました！！！<br/>
-                        サークルメンバーによる合同誌（新刊+既刊）を頒布予定！</h2>
-                <br/>
+                        サークルメンバーによる合同誌（新刊+既刊）を頒布します！</h2>
+                        <img src="images/126_oshinagaki.jpg" class="img-responsive" data-lity="data-lity" style="max-width:900px; margin:auto;" />
                 <h2 class="wow fadeInUp" data-wow-offset="300" style="visibility: hidden; animation-name: none; -webkit-animation-name: none;">スペースNo.Z-53b にて皆様をお待ちしております！！</h2>
                 <br/>
-                <!-- <img src="images/oshinagaki.jpg" class="img-responsive" data-lity="data-lity" style="max-width:900px; margin:auto;" /> -->
             </div>
         </div>
 
@@ -161,7 +160,7 @@
             </div>
         </div>
 
-        <!-- <div itemprop="location" itemscope="" itemtype="http://schema.org/Place" id="access">
+        <div itemprop="location" itemscope="" itemtype="http://schema.org/Place" id="access">
             <div class="container">
                 <h1 class="wow fadeInUp" data-wow-offset="300" style="visibility: hidden; animation-name: none; -webkit-animation-name: none;">アクセス</h1>
                 <div class="wow fadeInUp" data-wow-offset="300" style="visibility: hidden; animation-name: none; -webkit-animation-name: none;">
@@ -193,7 +192,7 @@
                             <meta itemprop="addressCountry" content="日本"/>
                             <meta itemprop="postalCode" content="135-0063"/>
                         </span>
-        </div> -->
+        </div>
 
     </article>
     <meta itemprop="description" content="同人誌即売会" />
@@ -231,9 +230,9 @@
         </div>
     </footer>
 
-    <!-- <div class="lity-hide">
-        <a href="images/oshinagaki.jpg" data-lity="data-lity" id="popup"></a>
-    </div> -->
+    <div class="lity-hide">
+        <a href="images/126_oshinagaki.jpg" data-lity="data-lity" id="popup"></a>
+    </div>
 </body>
 
 </html>
