@@ -3,11 +3,10 @@
 body {
     background-image: url("../images/130_top.jpg");
     background-size: cover;
-    /*background-size:100% auto;*/
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
-    /*position: relative;*/
+    position: relative;
 }
 
 .img-responsive {
