@@ -2,7 +2,8 @@
 
 .cd-fixed-bg {
     background-image: url("../images/130_top.jpg");
-    background-size: cover;
+    /*background-size: cover;*/
+    background-size:100% auto;
     background-attachment: fixed;
     background-position: center center;
     position: relative;
