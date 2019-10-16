@@ -1,6 +1,6 @@
 @import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
 
-.cd-fixed-bg {
+body {
     background-image: url("../images/130_top.jpg");
     /*background-size: cover;*/
     background-size:100% auto;
